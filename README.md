@@ -7,7 +7,7 @@ It is based on ESP32 and supports Shelly Plugs and Sonoff BASIC R3 for controlli
 
 All data and controlling done at TILTPILLHUB CLOUD and hence you only need to enter wifi details once in the logger.
 
-As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/
+As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/, but basically you just need the 8-10 ciffer (chip id of ESP32) number as seen when setting wifi up in logger, and use this number as you Username when creating an account at TILTPILLHUB CLOUD. 
 
 Binfil and istall for TILTPILLHUB is under releases here at Github.
 
