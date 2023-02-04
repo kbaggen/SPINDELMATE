@@ -9,6 +9,9 @@ It is based on ESP32 and supports Shelly Plugs and Sonoff BASIC R3 for controlli
 All data and controlling is done at TILTPILLHUB CLOUD and hence you only need to enter wifi details once in the logger.
 ![Overview_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216659475-5f0e1974-2800-446a-8781-19560506e31d.png)
 
+### PArts needed
+An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. A magnet can help hold it in place, so you might wish to glue one on for metal fermenters. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini.
+
 ### Installing and Download
 As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/. The Binfile and files to setup you find under releases.
 
@@ -38,3 +41,13 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 
 ### A bit more overview of what TILTPILLHUB can do in picture form
 ![Overview2_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216659482-7c5874e1-c3ca-4bc6-96b4-3485cd1c1937.png)
+
+## Some further screenshorts
+### Main screen
+![image](https://user-images.githubusercontent.com/16992918/216788917-1569b3a0-4c08-4a9e-9c27-91df3fff3a58.png)
+
+
+### Veiw/share brew Screen
+![image](https://user-images.githubusercontent.com/16992918/216789024-15e3a990-3583-4d75-8583-ae5cf55afecb.png)
+
+
