@@ -21,7 +21,8 @@ Main screeen!
 
 
 Veiw and share screen:
-![image](https://user-images.githubusercontent.com/16992918/216759794-4084dbde-4a4b-40e3-b9dc-2bb31cd54069.png)
+![image](https://user-images.githubusercontent.com/16992918/216759859-6871609d-b33b-436d-a4f6-6f93ff29d0c1.png)
+
 
 
 
