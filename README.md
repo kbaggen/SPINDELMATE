@@ -10,10 +10,10 @@ All data and controlling is done at TILTPILLHUB CLOUD and hence you only need to
 ![Overview_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216659475-5f0e1974-2800-446a-8781-19560506e31d.png)
 
 ### PArts needed
-An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. A magnet can help hold it in place, so you might wish to glue one on for metal fermenters. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini.
+An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. A magnet can help hold it in place, so you might consider to glue one on for metal fermenters. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini.
 
 ### Installing and Download
-As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/. The Binfile and files to setup you find under releases.
+As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/. The Binfile and files to setup you will find under releases.
 
 > 1. Install CP210x USB to UART Bridge VCP Drivers, if not already done.
 > 2. Ensure ESP32 is pugged into USB.
@@ -49,6 +49,10 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 
 ### Veiw/share brew Screen
 ![image](https://user-images.githubusercontent.com/16992918/216789024-15e3a990-3583-4d75-8583-ae5cf55afecb.png)
+
+### Log A Brew Screen
+![image](https://user-images.githubusercontent.com/16992918/216789318-87deee3c-e273-47f5-9465-6eb0c4b91547.png)
+
 
 ### Settings Screen
 ![image](https://user-images.githubusercontent.com/16992918/216789124-f452e544-cf83-43fc-aa21-390bf836e638.png)
