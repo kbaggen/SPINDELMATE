@@ -50,4 +50,10 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 ### Veiw/share brew Screen
 ![image](https://user-images.githubusercontent.com/16992918/216789024-15e3a990-3583-4d75-8583-ae5cf55afecb.png)
 
+### Settings Screen
+![image](https://user-images.githubusercontent.com/16992918/216789124-f452e544-cf83-43fc-aa21-390bf836e638.png)
+
+### TempControl Settings Screen
+![image](https://user-images.githubusercontent.com/16992918/216789162-248eedf7-e19f-445e-830f-cda7d4551c6e.png)
+
 
