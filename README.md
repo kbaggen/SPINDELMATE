@@ -1,4 +1,4 @@
-# TILTPILLHUB (BETA)
+# TILTPILLHUB
 TILTPILLHUB CLOUD => https://tiltpillhub.bubble-logger.com/login.php
 
 TILTPILLHUB is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth.
