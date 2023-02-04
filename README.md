@@ -1,6 +1,7 @@
 # TILTPILLHUB
 TILTPILLHUB CLOUD => https://tiltpillhub.bubble-logger.com/login.php
 
+### What is TILTPILLHUB
 TILTPILLHUB is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth.
 
 It is based on ESP32 and supports Shelly Plugs and Sonoff BASIC R3 for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
@@ -8,9 +9,8 @@ It is based on ESP32 and supports Shelly Plugs and Sonoff BASIC R3 for controlli
 All data and controlling is done at TILTPILLHUB CLOUD and hence you only need to enter wifi details once in the logger.
 ![Overview_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216659475-5f0e1974-2800-446a-8781-19560506e31d.png)
 
-
-As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/.
-
+### Installing and Download
+As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/. The Binfile and files to setup you find under releases.
 
 > 1. Install CP210x USB to UART Bridge VCP Drivers, if not already done.
 > 2. done this before.
@@ -23,30 +23,18 @@ As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and ins
 > 9. Hit and run the “Window batch file” named “SETUP_USB_COMX”
 Now the iBLOPPPER`ESP32 software get installed.
 
-If something goes wrong you can erase everything after editing accordingly as above by running “Erase_USB_COMX” (esptool.exe -p COM4 -b 115200 erase_flash). 
 
 NOTICE!
-
 Please remember to hold and press “BOOT” when you see “…………..——–…………………….———” during upload/install of the ESP32.
-
 If updating to new build and/or making use of an ESP32 from earlier project, ensure to erase everything as else you will get instability issues.
-
 Secondly, always pull the power from iBLOPPER´ESP32 after installing before setting it up.
+If something goes wrong you can erase everything after editing accordingly as above by running “Erase_USB_COMX” (esptool.exe -p COM4 -b 115200 erase_flash). 
 
 
 
-
-but basically you just need the 8-10 ciffer (chip id of ESP32) number as seen when setting up wifi for logger, and use this number as you Username when creating an account at TILTPILLHUB CLOUD. 
-
-Binfil and istall for TILTPILLHUB is under releases here at Github.
+###Setup
+Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) number as seen when setting up wifi for logger so notice it, and use this number as you Username when creating an account at TILTPILLHUB CLOUD. That is it.   
 
 
-Some screen shorts:
-
-Main screeen!
-
-
-
-
-
+###A bit more overview of what TILTPILLHUB can do in picture form
 ![Overview2_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216659482-7c5874e1-c3ca-4bc6-96b4-3485cd1c1937.png)
