@@ -14,5 +14,16 @@ Binfil and istall for TILTPILLHUB is under releases here at Github.
 
 ![Overview_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216659475-5f0e1974-2800-446a-8781-19560506e31d.png)
 
+Some screen shorts:
+
+Main screeen!
+![image](https://user-images.githubusercontent.com/16992918/216759709-5f6c3e67-952e-4266-92aa-a21e3cdb3974.png)
+
+
+Veiw and share screen:
+![image](https://user-images.githubusercontent.com/16992918/216759794-4084dbde-4a4b-40e3-b9dc-2bb31cd54069.png)
+
+
+
 
 ![Overview2_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216659482-7c5874e1-c3ca-4bc6-96b4-3485cd1c1937.png)
