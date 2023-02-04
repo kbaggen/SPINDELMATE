@@ -12,15 +12,15 @@ All data and controlling is done at TILTPILLHUB CLOUD and hence you only need to
 As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/.
 
 
-> 1). Install CP210x USB to UART Bridge VCP Drivers, if not already done.
-> 2). done this before.
-> 3.) Ensure ESP32 is pugged into USB.
-4.) Go to “Devices” (e.g. use win10/11 search and write “devices”).
-5). Under “Ports” in Devices. Notice this USB port number for “CP210x USB to UART”!
-6). Open and edit “Erase_USB_COMX” and set correct port (eg. change the port number ONLY): esptool.exe -p COM4 -b 115200 erase_flash
-7). Run “Erase_USB_COMX” to ensure ESP32 is clean.
-8). Open and edit the “SETUP_USB_COMX” to reflect the port you using, eg. change the port number ONLY: esptool.exe --chip esp32 --port COM4 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0xe000 boot_app0.bin 0x1000 bootloader_dio_80m.bin 0x10000 TILTPILLHUB1.0.0.bin 0x8000 iBLOPPER4.ino.partitions.bin
-9). Hit and run the “Window batch file” named “SETUP_USB_COMX”
+> 1. Install CP210x USB to UART Bridge VCP Drivers, if not already done.
+> 2. done this before.
+> 3. Ensure ESP32 is pugged into USB.
+> 4. Go to “Devices” (e.g. use win10/11 search and write “devices”).
+> 5. Under “Ports” in Devices. Notice this USB port number for “CP210x USB to UART”!
+> 6. Open and edit “Erase_USB_COMX” and set correct port (eg. change the port number ONLY): esptool.exe -p COM4 -b 115200 erase_flash
+> 7. Run “Erase_USB_COMX” to ensure ESP32 is clean.
+> 8. Open and edit the “SETUP_USB_COMX” to reflect the port you using, eg. change the port number ONLY: esptool.exe --chip esp32 --port COM4 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0xe000 boot_app0.bin 0x1000 bootloader_dio_80m.bin 0x10000 TILTPILLHUB1.0.0.bin 0x8000 iBLOPPER4.ino.partitions.bin
+> 9. Hit and run the “Window batch file” named “SETUP_USB_COMX”
 Now the iBLOPPPER`ESP32 software get installed.
 
 If something goes wrong you can erase everything after editing accordingly as above by running “Erase_USB_COMX” (esptool.exe -p COM4 -b 115200 erase_flash). 
