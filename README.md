@@ -61,10 +61,10 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 
 
 ### Settings Screen
-![image](https://user-images.githubusercontent.com/16992918/216810041-aa30671e-514f-4771-84d4-b316cbc8e184.png)
+![image](https://user-images.githubusercontent.com/16992918/216828372-1fc6e4ff-acf3-47ce-8101-bf256755b7b0.png)
 
 
 ### TempControl Settings Screen
-![image](https://user-images.githubusercontent.com/16992918/216789162-248eedf7-e19f-445e-830f-cda7d4551c6e.png)
+![image](https://user-images.githubusercontent.com/16992918/216828412-77f41cb6-89c0-4c72-99f6-639711e25404.png)
 
 
