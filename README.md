@@ -40,6 +40,10 @@ If something goes wrong you can erase everything after editing accordingly as ab
 Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) number as seen when setting up wifi for logger so notice it, and use this number as you Username when creating an account at TILTPILLCLOUD. That is it. TILTPILLCLOUD => https://tiltpillmate.bubble-logger.com/login.php
 
 
+### Behaviour
+The first 60 sec´s after power on it will light blue in AP mode and hence you can set Wifi credentials. Theirafter in will turn blue LED off, and only flash it every 10 sec´s where it ping the iBeacon signal (repreats/boots/emulate the Bluettoth signal from TILT or RAPT PILL). After the "cycle in min" time you have set in settings has ended it will scan for TILT or RAPT Pill according til the "cycle in min" setting. Meaning if 3 mins is set it scan for 30-120 secs, and if 6 mins is set it will be 60-240 secs, wher the later the supports up till evert 3rd min of telemetric setting of a RAPT PILL. As the TILT pings every 10 sec, it should be covered however you set the cycle behaviour.
+
+
 ### A bit more overview of what TILTPILLMATE can do in picture form
 ![Overview2_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216809167-89c934cf-1837-4fd4-93a8-f659680b4091.png)
 
