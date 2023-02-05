@@ -1,5 +1,5 @@
-# TILTPILLMATE (and TILTPILLCLOUD)
-TILTPILLCLOUD => https://tiltpillcloud.bubble-logger.com/login.php
+# TILTPILLMATE
+TILTPILLCLOUD => https://tiltpillmate.bubble-logger.com/login.php
 
 ### What is TILTPILLHUB
 TILTPILLHUB is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth.
@@ -35,8 +35,8 @@ If something goes wrong you can erase everything after editing accordingly as ab
 
 
 
-### Setup at TILTPILLHUB CLOUD => https://tiltpillhub.bubble-logger.com/login.php
-Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) number as seen when setting up wifi for logger so notice it, and use this number as you Username when creating an account at TILTPILLCLOUD. That is it. TILTPILLCLOUD => https://tiltpillcloud.bubble-logger.com/login.php
+### Setup
+Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) number as seen when setting up wifi for logger so notice it, and use this number as you Username when creating an account at TILTPILLCLOUD. That is it. TILTPILLCLOUD => https://tiltpillmate.bubble-logger.com/login.php
 
 
 ### A bit more overview of what TILTPILLHUB can do in picture form
