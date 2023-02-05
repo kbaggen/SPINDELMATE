@@ -36,8 +36,8 @@ If something goes wrong you can erase everything after editing accordingly as ab
 
 
 
-### Setup
-Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) there appreas when entering AP mode later so notice it, and use this number as you __Username__ when creating an account at TILTPILLMATE CLOUD. That is it. TILTPILLMATE CLOUD => https://tiltpillmate.bubble-logger.com/login.php
+### Setup (at https://tiltpillmate.bubble-logger.com/login.php)
+Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) there appreas when entering AP mode later so notice it, and use this number as you __Username__ when creating an account at TILTPILLMATE CLOUD. That is it. 
 
 
 ### Behaviour
