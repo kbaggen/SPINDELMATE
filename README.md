@@ -40,7 +40,7 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 
 
 ### A bit more overview of what TILTPILLHUB can do in picture form
-![Overview2_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216659482-7c5874e1-c3ca-4bc6-96b4-3485cd1c1937.png)
+![image](https://user-images.githubusercontent.com/16992918/216809032-98bf817e-a162-4207-a665-04aed202ca81.png)
 
 ## Some further screenshorts
 ### Main screen
