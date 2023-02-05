@@ -40,9 +40,10 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 
 
 ### A bit more overview of what TILTPILLHUB can do in picture form
-![image](https://user-images.githubusercontent.com/16992918/216809032-98bf817e-a162-4207-a665-04aed202ca81.png)
 
 ## Some further screenshorts
+![Overview2_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216809167-89c934cf-1837-4fd4-93a8-f659680b4091.png)
+
 ### Main screen
 ![image](https://user-images.githubusercontent.com/16992918/216788917-1569b3a0-4c08-4a9e-9c27-91df3fff3a58.png)
 
@@ -55,7 +56,7 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 
 
 ### Settings Screen
-![image](https://user-images.githubusercontent.com/16992918/216789124-f452e544-cf83-43fc-aa21-390bf836e638.png)
+![image](https://user-images.githubusercontent.com/16992918/216809032-98bf817e-a162-4207-a665-04aed202ca81.png)
 
 ### TempControl Settings Screen
 ![image](https://user-images.githubusercontent.com/16992918/216789162-248eedf7-e19f-445e-830f-cda7d4551c6e.png)
