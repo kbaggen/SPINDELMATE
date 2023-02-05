@@ -43,9 +43,11 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 ![Overview2_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216809167-89c934cf-1837-4fd4-93a8-f659680b4091.png)
 
 # Some further screenshorts 
+
+### Main screen of GUI
 ![image](https://user-images.githubusercontent.com/16992918/216788917-1569b3a0-4c08-4a9e-9c27-91df3fff3a58.png)
 
-### Main screen
+
 ### Veiw/share brew Screen
 ![image](https://user-images.githubusercontent.com/16992918/216789024-15e3a990-3583-4d75-8583-ae5cf55afecb.png)
 
