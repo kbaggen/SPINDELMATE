@@ -1,8 +1,8 @@
 # TILTPILLMATE
-TILTPILLCLOUD => https://tiltpillmate.bubble-logger.com/login.php
+TILTPILLMATE CLOUD => https://tiltpillmate.bubble-logger.com/login.php
 
-### What is TILTPILLHUB
-TILTPILLHUB is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth.
+### What is TILTPILLMATE
+TILTPILLMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth. Furthermore, it is a cloud service allowing to easily uploading your data.
 
 It is based on ESP32 and supports Shelly Plugs and Sonoff BASIC R3 for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
 
@@ -40,17 +40,19 @@ If something goes wrong you can erase everything after editing accordingly as ab
 Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) number as seen when setting up wifi for logger so notice it, and use this number as you Username when creating an account at TILTPILLCLOUD. That is it. TILTPILLCLOUD => https://tiltpillmate.bubble-logger.com/login.php
 
 
-### A bit more overview of what TILTPILLHUB can do in picture form
+### A bit more overview of what TILTPILLMATE can do in picture form
 ![Overview2_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216809167-89c934cf-1837-4fd4-93a8-f659680b4091.png)
 
 # Some further screenshorts 
 
 ### Main screen of GUI
-![image](https://user-images.githubusercontent.com/16992918/216827092-9288a010-32ed-4652-97ca-0d87849bc55d.png)
+![image](https://user-images.githubusercontent.com/16992918/216828058-57cb327c-d982-487b-91ea-8921dd5ec94f.png)
+
 
 
 ### Veiw/share brew Screen
-![image](https://user-images.githubusercontent.com/16992918/216827202-511ff6cc-5b09-4ecf-bc44-d9115f846aae.png)
+![image](https://user-images.githubusercontent.com/16992918/216828103-2cee8475-b06a-4e3f-a93e-9c2936666bc2.png)
+
 
 
 
