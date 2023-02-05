@@ -7,7 +7,8 @@ TILTPILLHUB is a fermentation logger capturing the TILT hydrometer or RAPT PILL 
 It is based on ESP32 and supports Shelly Plugs and Sonoff BASIC R3 for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
 
 All data and controlling is done at TILTPILLHUB CLOUD and hence you only need to enter wifi details once in the logger.
-![Overview_TILTPILLHUB](https://user-images.githubusercontent.com/16992918/216659475-5f0e1974-2800-446a-8781-19560506e31d.png)
+![image](https://user-images.githubusercontent.com/16992918/216826960-47a5f6e0-37d9-4002-8dcd-6df2f6ae6f54.png)
+
 
 ### Parts needed
 An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. A magnet can help hold it in place, so you might consider to glue one on for metal fermenters. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini. If you wish to use the TempControl function you will need Shelly Plugs and/or Sonoff BASIC R3 the later setup in DIY mode.
