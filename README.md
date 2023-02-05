@@ -46,14 +46,16 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 # Some further screenshorts 
 
 ### Main screen of GUI
-![image](https://user-images.githubusercontent.com/16992918/216788917-1569b3a0-4c08-4a9e-9c27-91df3fff3a58.png)
+![image](https://user-images.githubusercontent.com/16992918/216827092-9288a010-32ed-4652-97ca-0d87849bc55d.png)
 
 
 ### Veiw/share brew Screen
-![image](https://user-images.githubusercontent.com/16992918/216789024-15e3a990-3583-4d75-8583-ae5cf55afecb.png)
+![image](https://user-images.githubusercontent.com/16992918/216827202-511ff6cc-5b09-4ecf-bc44-d9115f846aae.png)
+
+
 
 ### Log A Brew Screen
-![image](https://user-images.githubusercontent.com/16992918/216789318-87deee3c-e273-47f5-9465-6eb0c4b91547.png)
+![image](https://user-images.githubusercontent.com/16992918/216827141-b332b2c2-0c3b-4f27-9847-72126e33657a.png)
 
 
 ### Settings Screen
