@@ -14,27 +14,14 @@ All data and controlling is done at TILTPILLHUB CLOUD and hence you only need to
 An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. A magnet can help hold it in place, so you might consider to glue one on for metal fermenters. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini. If you wish to use the TempControl function you will need Shelly Plugs and/or Sonoff BASIC R3 the later setup in DIY mode.
 
 ### Installing and Download
-As TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/. The Binfile and files to setup you will find under releases at GITHUB (TILTPILLMATE1.0.0.zip).
 
 > 1. Install CP210x USB to UART Bridge VCP Drivers, if not already done.
-> 2. Ensure ESP32 is pugged into USB.
-> 3. Go to “Devices” (e.g. use win10/11 search and write “devices”).
-> 4. Under “Ports” in Devices. Notice this USB port number for “CP210x USB to UART”!
-> 5. Open and edit “Erase_USB_COMX” and set correct port (eg. change the port number ONLY): esptool.exe -p COM4 -b 115200 erase_flash
-> 6. Run “Erase_USB_COMX” to ensure ESP32 is clean.
-> 7. Open and edit the “SETUP_USB_COMX” to reflect the port you using, eg. change the port number ONLY: esptool.exe --chip esp32 --port COM4 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0xe000 boot_app0.bin 0x1000 bootloader_dio_80m.bin 0x10000 TILTPILLHUB1.0.0.bin 0x8000 iBLOPPER4.ino.partitions.bin
-> 8. Hit and run the “Window batch file” named “SETUP_USB_COMX”
-Now the iBLOPPPER`ESP32 software get installed.
+> 2. Use [BrewFlasher](https://www.brewflasher.com/) or use the webbased version: https://web.brewflasher.com/fw/108
+> 3. Select EPS32 and TILTPILLMATE software.
+> 4. Now the TILTPILLMATE software get installed.
+NOTICE! Please remember to hold and press “BOOT” during the start of upload to the ESP32.
 
-
-NOTICE!
-
-Please remember to hold and press “BOOT” when you see “…………..——–…………………….———” during upload/install of the ESP32.
-If updating to new build and/or making use of an ESP32 from earlier project, ensure to erase everything as else you will get instability issues.
-Secondly, always pull the power from iBLOPPER´ESP32 after installing before setting it up.
-If something goes wrong you can erase everything after editing accordingly as above by running “Erase_USB_COMX” (esptool.exe -p COM4 -b 115200 erase_flash). 
-
-
+(Manual install --> TILTPILLHUB run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/. The Binfile and files to setup you will find under releases at GITHUB (TILTPILLMATE1.0.0.zip))
 
 ### Setup (at https://tiltpillmate.bubble-logger.com/login.php)
 Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) there appreas when entering AP mode later so notice it, and use this number as you __Username__ when creating an account at TILTPILLMATE CLOUD. That is it. 
