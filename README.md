@@ -4,14 +4,14 @@ TILTPILLMATE CLOUD => https://tiltpillmate.bubble-logger.com/login.php
 ### What is TILTPILLMATE
 TILTPILLMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth. Furthermore, it is a cloud service allowing to easily uploading your data.
 
-It is based on ESP32 and supports Shelly Plugs and Sonoff BASIC R3 for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
+It is based on ESP32 and supports Shelly Plugs and Sonoff Plugs in DIY mode for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
 
 All data and controlling is done at TILTPILLMATE CLOUD and hence you only need to enter wifi details once in the logger.
 ![image](https://user-images.githubusercontent.com/16992918/216826960-47a5f6e0-37d9-4002-8dcd-6df2f6ae6f54.png)
 
 
 ### Parts needed
-An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. A magnet can help hold it in place, so you might consider to glue one on for metal fermenters. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini. If you wish to use the TempControl function you will need Shelly Plugs and/or Sonoff BASIC R3 the later setup in DIY mode.
+An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. A magnet can help hold it in place, so you might consider to glue one on for metal fermenters. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini (se more below). If you wish to use the TempControl function you will need Shelly Plugs and/or Sonoff Plus in DIY mode (se more below).
 
 ### Installing and Download
 
@@ -29,6 +29,14 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 
 ### Behaviour
 The first 60 sec´s after power on it will light blue in AP mode and hence you can set Wifi credentials. Theirafter in will turn blue LED off, and only flash it every 10 sec´s where it ping the iBeacon signal (repreats/boots/emulate the Bluettoth signal from TILT or RAPT PILL). After the "cycle in min" time you have set in settings has ended it will scan for TILT or RAPT Pill according til the "cycle in min" setting. Meaning if 3 mins is set it scan for 30-120 secs after those 3 minutes, and if 6 mins is set it will scan after 6 minutes for 60-240 secs, where the later then supports a telemetric setting of every 3rd min for a RAPT PILL. As the TILT pings every 10 sec, it should be covered however you do set the cycle behaviour.
+
+### ESP32 supported
+The following has been tested to work: 
+
+ESP32 DevKit1, ESP32S NodeMCU, Wemos ESP32 D1 Mini, ESP32 DevkitC V4 (@Frank Nobrega) and HiLetgo ESP32 OLED WiFi Kit V3 Type-C ESP-32 0.96 Inch Blue OLED (@Frank Nobrega).
+
+Did not worked:
+ESP32-DevKitC-32 30P (version3 ???) (@Frank Nobrega)
 
 ### Plugs supported
 The following is tested and working:
