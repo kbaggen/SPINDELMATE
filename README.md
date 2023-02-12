@@ -33,21 +33,21 @@ The first 60 sec´s after power on it will light blue in AP mode and hence you c
 ### Plugs supported
 __The following is tested and working:
 
-_Sonoff Basic R3.
+Sonoff Basic R3.
 
-_Shelly PLUG S
+Shelly PLUG S
 
-_Shelly PLUS PLUG US (@Frank Nobrega)
+Shelly PLUS PLUG US (@Frank Nobrega)
 
 __Likkely working (from specification/API):
 
-_Sonoff Mini
+Sonoff Mini
 
-_Sonof RFR3
+Sonof RFR3
 
-_Shelly 1
+Shelly 1
 
-_Shelly PLUS 1
+Shelly PLUS 1
 
 Futurewise Tasmota plugs will be supported and comming with update/version 1.1.0
 
