@@ -1,4 +1,7 @@
-# SPINDELMATE
+<p align="center">
+    <img width="200">![spindelmate](https://user-images.githubusercontent.com/16992918/218797276-db2669b0-3015-4daa-a63e-b171f8bf125d.png)
+  </p>
+
 TILTPILLMATE CLOUD => https://spindelmate.bubble-logger.com/login.php
 
 ### What is SPINDELMATE
