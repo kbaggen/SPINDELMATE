@@ -2,9 +2,11 @@
     <img width="400" src="https://user-images.githubusercontent.com/16992918/218797276-db2669b0-3015-4daa-a63e-b171f8bf125d.png" alt="Material Bread logo">
   </p>
 
-SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php
 
 ### What is SPINDELMATE
+
+SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php
+
 SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth or WiFI signal from iSPINDEL. Furthermore, it is a cloud service allowing to easily uploading your data.
 89)
 It is based on ESP32 and supports Shelly, Sonoff (DIY mode) an Tasmota Plugs for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
