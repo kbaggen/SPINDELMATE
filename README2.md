@@ -42,8 +42,7 @@ ESP32-DevKitC-32 30P (version3 ???) (@Frank Nobrega)
 ### Plugs supported
 The following is tested and working:
 
-Sonoff B
-asic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega)
+Sonoff Basic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega)
 
 Likkely working (from specification/API):
 
@@ -53,7 +52,7 @@ Tasmota plugs is also supported.
 
 Testing of Plugs by follwing commands:<br>
 Tasmota on --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
-Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
+Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20off <br>
 Shelly on --> http://192.168.1.xxx//relay/0?turn=on <br>
 Shelly off --> http://192.168.1.xxx//relay/0?turn=off <br>
 
