@@ -7,11 +7,12 @@ SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL 
 It is based on ESP32 and supports Shelly, Sonoff (DIY mode) an Tasmota Plugs for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
 
 All data and controlling is done at SPINDELMATE CLOUD and hence you only need to enter wifi details once in the logger.
+![overview_x](https://user-images.githubusercontent.com/16992918/218760899-e3352de1-693a-4ffb-9fd5-a7318df9352b.png)
 
 
 
 ### Parts needed
-An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. A magnet can help hold it in place, so you might consider to glue one on for metal fermenters. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini (se more below). If you wish to use the TempControl function you will need Shelly Plugs and/or Sonoff Plus in DIY mode (se more below).
+An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini (se more below). If you wish to use the TempControl function you will need Shelly Plugs and/or Sonoff Plus in DIY mode (se more below).
 
 ### Installing and Download
 
@@ -23,8 +24,8 @@ NOTICE! Please remember to hold and press “BOOT” during the start of upload 
 
 (Manual install --> TILTPILLMATE run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/. The Binfile and files to setup you will find under releases at GITHUB (TILTPILLMATE1.0.0.zip))
 
-### Setup (at https://tiltpillmate.bubble-logger.com/login.php)
-Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) there appreas when entering AP mode later so notice it, and use this number as you __Username__ when creating an account at TILTPILLMATE CLOUD. That is it. 
+### Setup (at https://spindelmate.bubble-logger.com/login.php)
+Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) there appreas when entering AP mode later so notice it, and use this number as you __Username__ when creating an account at SPINDELMATE CLOUD. That is it. 
 
 
 ### Behaviour
@@ -41,13 +42,22 @@ ESP32-DevKitC-32 30P (version3 ???) (@Frank Nobrega)
 ### Plugs supported
 The following is tested and working:
 
-Sonoff Basic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega)
+Sonoff B
+asic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega)
 
 Likkely working (from specification/API):
 
 Sonoff Mini, Sonof RFR3, Shelly 1, Shelly PLUS 1
 
-Futurewise Tasmota plugs will be supported and comming with update/version 1.1.0
+Tasmota plugs is also supported.
+
+Testing of Plugs by follwing commands:
+Tasmota on --> http://192.168.1.xxx/cm?cmnd=Power%20on
+Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20on
+Shelly on --> http://192.168.1.xxx//relay/0?turn=on
+Shelly off --> http://192.168.1.xxx//relay/0?turn=off
+
+Sonoff need a json body, and hence, would need to be tested from Postman or similary.
 
 ### Limitation
 You can only run one TILT or PILL by each ESP32, and also need one login (Chip ID of ESP32) accordingly for each ESP32. Sorry :-)
