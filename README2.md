@@ -52,10 +52,10 @@ Sonoff Mini, Sonof RFR3, Shelly 1, Shelly PLUS 1
 Tasmota plugs is also supported.
 
 Testing of Plugs by follwing commands:
-Tasmota on --> http://192.168.1.xxx/cm?cmnd=Power%20on
-Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20on
-Shelly on --> http://192.168.1.xxx//relay/0?turn=on
-Shelly off --> http://192.168.1.xxx//relay/0?turn=off
+Tasmota on --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
+Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
+Shelly on --> http://192.168.1.xxx//relay/0?turn=on <br>
+Shelly off --> http://192.168.1.xxx//relay/0?turn=off <br>
 
 Sonoff need a json body, and hence, would need to be tested from Postman or similary.
 
