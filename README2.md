@@ -2,7 +2,7 @@
     <img width="400" src="https://user-images.githubusercontent.com/16992918/218797276-db2669b0-3015-4daa-a63e-b171f8bf125d.png" alt="Material Bread logo">
   </p>
 
-TILTPILLMATE CLOUD => https://spindelmate.bubble-logger.com/login.php
+SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php
 
 ### What is SPINDELMATE
 SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth or WiFI signal from iSPINDEL. Furthermore, it is a cloud service allowing to easily uploading your data.
@@ -33,6 +33,8 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 
 ### Behaviour
 The first 60 sec´s after power on it will light blue in AP mode and hence you can set Wifi credentials. Theirafter in will turn blue LED off, and only flash it every 10 sec´s where it ping the iBeacon signal (repreats/boots/emulate the Bluettoth signal from TILT or RAPT PILL). After the "cycle in min" time you have set in settings has ended it will scan for TILT or RAPT Pill according til the "cycle in min" setting. Meaning if 3 mins is set it scan for 30-120 secs after those 3 minutes, and if 6 mins is set it will scan after 6 minutes for 60-240 secs, where the later then supports a telemetric setting of every 3rd min for a RAPT PILL. As the TILT pings every 10 sec, it should be covered however you do set the cycle behaviour.
+
+For iSPINDEL you must include the iSPINDEL Chip ID at settings at SPINDELMATE CLoaud and the iSPINDEL must send data by HTTP till the local ip of the logger. We strongly propose you ensure to bind the local ip adresses in your routher for the ESP32 of SPINDELMATE to ensure it do not change at powerloss.
 
 ### ESP32 supported
 The following has been tested to work: 
@@ -71,25 +73,22 @@ You can only run one TILT or PILL by each ESP32, and also need one login (Chip I
 # Some further screenshorts 
 
 ### Main screen of GUI
-![image](https://user-images.githubusercontent.com/16992918/216828058-57cb327c-d982-487b-91ea-8921dd5ec94f.png)
-
+![image](https://user-images.githubusercontent.com/16992918/218799876-d7dfa0f4-a9b6-445e-ab5c-a04d56ececc2.png)
 
 
 ### Veiw/share brew Screen
-![image](https://user-images.githubusercontent.com/16992918/216828103-2cee8475-b06a-4e3f-a93e-9c2936666bc2.png)
-
-
+![image](https://user-images.githubusercontent.com/16992918/218800517-51cb88fd-33af-43b0-9cdc-449b5dc53772.png)
 
 
 ### Log A Brew Screen
-![image](https://user-images.githubusercontent.com/16992918/216827141-b332b2c2-0c3b-4f27-9847-72126e33657a.png)
+![image](https://user-images.githubusercontent.com/16992918/218800730-c04548ec-1387-4909-aa2b-782bdc495381.png)
 
 
 ### Settings Screen
-![image](https://user-images.githubusercontent.com/16992918/216828372-1fc6e4ff-acf3-47ce-8101-bf256755b7b0.png)
-
+![image](https://user-images.githubusercontent.com/16992918/218800202-399dfde9-65fc-4752-b04a-77f74b4a8357.png)
 
 ### TempControl Settings Screen
-![image](https://user-images.githubusercontent.com/16992918/216828412-77f41cb6-89c0-4c72-99f6-639711e25404.png)
+![image](https://user-images.githubusercontent.com/16992918/218800329-66ce1345-066b-4c41-8fc8-bb5440f4faef.png)
+
 
 
