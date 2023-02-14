@@ -51,7 +51,7 @@ Sonoff Mini, Sonof RFR3, Shelly 1, Shelly PLUS 1
 
 Tasmota plugs is also supported.
 
-Testing of Plugs by follwing commands:
+Testing of Plugs by follwing commands:<br>
 Tasmota on --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
 Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
 Shelly on --> http://192.168.1.xxx//relay/0?turn=on <br>
