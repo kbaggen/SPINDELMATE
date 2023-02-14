@@ -27,7 +27,6 @@ An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture 
 > 4. Now the TILTPILLMATE software get installed.
 NOTICE! Please remember to hold and press “BOOT” during the start of upload to the ESP32.
 
-(Manual install --> TILTPILLMATE run on same database as iBLOPPER you can see how to setup and install at => https://iblopper.bubble-logger.com/iblopper-esp32-building/. The Binfile and files to setup you will find under releases at GITHUB (SPINDELMATE1.1.0.zip))
 
 ### Setup (at https://spindelmate.bubble-logger.com/login.php)
 Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) there appreas when entering AP mode later so notice it, and use this number as you __Username__ when creating an account at SPINDELMATE CLOUD. That is it. 
