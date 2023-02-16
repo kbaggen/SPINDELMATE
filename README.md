@@ -23,7 +23,7 @@ An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture 
 
 > 1. Install  CP210x USB to UART Bridge VCP Drivers (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers), if not already done to detects the board(s).
 > 2. Use [BrewFlasher](https://www.brewflasher.com/) or use the webbased version: https://web.brewflasher.com/fw/108
-> 3. Select EPS32 and TILTPILLMATE software.
+> 3. Select EPS32 and SPINDELMATE software.
 > 4. Now the TILTPILLMATE software get installed.
 NOTICE! Please remember to hold and press “BOOT” during the start of upload to the ESP32.
 
