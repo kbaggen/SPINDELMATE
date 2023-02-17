@@ -48,15 +48,13 @@ ESP32-DevKitC-32 30P (version3 ???) (@Frank Nobrega)
 ### Plugs supported
 The following is tested and working:
 
-Sonoff Basic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega), TASMOTA Martin Jerry Mini Smart Plug (https://www.amazon.com/dp/B0BMTWNL7R?psc=1&ref=ppx_yo2ov_dt_b_product_details&fbclid=IwAR2rcwOmCA-xi_e3oPMo6nmAVIeG7e6tL3m2wNjZldGUxcVkIT3cZHJxGWs) (@Frank Nobrega).
+Sonoff Basic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega), TASMOTA Martin Jerry Mini Smart Plug (@Frank Nobrega).
 
-Likkely working (from specification/API):
+__Likkely working (from specification/API):__
 
 Sonoff Mini, Sonof RFR3, Shelly 1, Shelly PLUS 1
 
-Tasmota plugs is also supported.
-
-Testing of Plugs by follwing commands:<br>
+__Testing of Plugs by follwing commands:__<br>
 Tasmota on --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
 Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20off <br>
 Shelly on --> http://192.168.1.xxx//relay/0?turn=on <br>
