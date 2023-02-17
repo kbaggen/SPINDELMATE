@@ -69,7 +69,8 @@ You can only run one TILT or PILL by each ESP32, and also need one login (Chip I
 
 
 ### A bit more overview of what TILTPILLMATE can do in picture form
-![overview_x2](https://user-images.githubusercontent.com/16992918/218808191-0da16b73-3c12-4ef7-96e3-05d39b5797fd.png)
+![image](https://user-images.githubusercontent.com/16992918/219738834-ee06af47-acbb-4820-901d-0b1491ed0ca6.png)
+
 
 # Some further screenshorts 
 
