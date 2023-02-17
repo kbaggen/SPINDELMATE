@@ -46,7 +46,7 @@ Did not worked:
 ESP32-DevKitC-32 30P (version3 ???) (@Frank Nobrega)
 
 ### Plugs supported
-The following is tested and working:
+__The following is tested and working:__
 
 Sonoff Basic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega), TASMOTA Martin Jerry Mini Smart Plug (@Frank Nobrega).
 
