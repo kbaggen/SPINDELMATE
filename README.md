@@ -57,8 +57,8 @@ Sonoff Mini, Sonof RFR3, and various Tasmota plugs.
 __Testing of Plugs by follwing commands:__<br>
 Tasmota on --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
 Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20off <br>
-Shelly on --> http:/192.168.1.xxx//relay/0?turn=on <br>
-Shelly off --> http:/192.168.1.xxx//relay/0?turn=off <br>
+Shelly on --> http://192.168.1.xxx/relay/0?turn=on <br>
+Shelly off --> http://192.168.1.xxx/relay/0?turn=off <br>
 
 Sonoff need a json body, and hence, would need to be tested from Postman or similarly.
 
