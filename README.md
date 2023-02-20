@@ -17,7 +17,7 @@ All data and controlling is done at SPINDELMATE CLOUD and hence you only need to
 
 
 ### Parts needed
-An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini (se more below). If you wish to use the TempControl function you will need Shelly Plugs and/or Sonoff Plus in DIY mode (se more below).
+An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini (se more below). If you wish to use the TempControl function you will need Plugs from Tasmota, Shelly and/or Sonoff in DIY mode (se more below).
 
 ### Installing and Download
 
