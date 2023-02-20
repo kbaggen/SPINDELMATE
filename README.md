@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="400" src="https://user-images.githubusercontent.com/16992918/218797276-db2669b0-3015-4daa-a63e-b171f8bf125d.png" alt="Material Bread logo">
+    <img width="400" src="https://user-images.githubusercontent.com/16992918/218797276-db2669b0-3015-4daa-a63e-b171f8bf125d.png" alt="SPINDELMATE logo">
   </p>
 
 
@@ -29,13 +29,13 @@ NOTICE! Please remember to hold and press “BOOT” during the start of upload 
 
 
 ### Setup (at https://spindelmate.bubble-logger.com/login.php)
-Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciffer (chip id of ESP32) there appreas when entering AP mode later so notice it, and use this number as you __Username__ when creating an account at SPINDELMATE CLOUD. That is it. 
+Power on the logger. Setup the wifi by joining the Portal of the logger by ip 192.168.4.1 (if it do not come up by it self). You will need the 8-10 ciphers (chip id of ESP32) there appears when entering AP mode later so notice it, and use this number as you __Username__ when creating an account at SPINDELMATE CLOUD. That is it. 
 
 
-### Behaviour
-The first 60 sec´s after power on it will light blue in AP mode and hence you can set Wifi credentials. Theirafter in will turn blue LED off, and only flash it every 10 sec´s where it ping the iBeacon signal (repreats/boots/emulate the Bluettoth signal from TILT or RAPT PILL). After the "cycle in min" time you have set in settings has ended it will scan for TILT or RAPT Pill according til the "cycle in min" setting. Meaning if 3 mins is set it scan for 30-120 secs after those 3 minutes, and if 6 mins is set it will scan after 6 minutes for 60-240 secs, where the later then supports a telemetric setting of every 3rd min for a RAPT PILL. As the TILT pings every 10 sec, it should be covered however you do set the cycle behaviour.
+### Behavior
+The first 60 sec´s after power on it will light blue in AP mode and hence you can set Wifi credentials. Thereafter in will turn blue LED off, and only flash it every 10 sec´s where it ping the iBeacon signal (repeats/boots/emulate the Bluetooth signal from TILT or RAPT PILL). After the "cycle in min" time you have set in settings has ended it will scan for TILT or RAPT Pill according till the "cycle in min" setting. Meaning if 3 mins is set it scan for 30-120 secs after those 3 minutes, and if 6 mins is set it will scan after 6 minutes for 60-240 secs, where the later then supports a telemetric setting of every 3rd min for a RAPT PILL. As the TILT pings every 10 sec, it should be covered however you do set the cycle behavior.
 
-For iSPINDEL you must include the iSPINDEL Chip ID at settings at SPINDELMATE Cloud and the iSPINDEL must send data by HTTP till the local ip of the logger. __Hence, for iSPINDEL is hould be noted currently SPIDELMATE works as an temeprature controller/hub, and it is improtant to state it do not work as an extender yet. It is a funtction still worked on.__ We strongly propose you ensure to bind the local ip adresses in your routher for the ESP32 of SPINDELMATE as else if it change (powerloss etc.) iSPINDEL will not be able to reach the logger. T oread more on how to setup for iSPINDEL see here: https://iblopper.bubble-logger.com/2352-2/
+For iSPINDEL you must include the iSPINDEL Chip ID at settings at SPINDELMATE Cloud and the iSPINDEL must send data by HTTP till the local ip of the logger. __Hence, for iSPINDEL it should be noted currently SPIDELMATE works as an temperature controller/hub, and it is important to state it do not work as an extender yet.__ We strongly propose you ensure to bind the local ip address in your router for the ESP32 of SPINDELMATE as else if it change (power loss etc.) iSPINDEL will not be able to reach the logger. T oread more on how to setup for iSPINDEL see here: https://iblopper.bubble-logger.com/2352-2/
 
 ### ESP32 supported
 The following has been tested to work: 
@@ -48,22 +48,23 @@ ESP32-DevKitC-32 30P (version3 ???) (@Frank Nobrega)
 ### Plugs supported
 __The following is tested and working:__
 
-Sonoff Basic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega), TASMOTA Martin Jerry Mini Smart Plug (@Frank Nobrega).
+Sonoff Basic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega), TASMOTA Martin Jerry Mini Smart Plug (@Frank Nobrega), Shelly 1, Shelly 1 PM, Shelly PRO 1, Shelly PRO 1 PM (@Per F. Sørensen).
 
 __Likkely working (from specification/API):__
 
-Sonoff Mini, Sonof RFR3, Shelly 1, Shelly PLUS 1
+Sonoff Mini, Sonof RFR3, and various Tasmota plugs.
 
 __Testing of Plugs by follwing commands:__<br>
 Tasmota on --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
 Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20off <br>
-Shelly on --> http://192.168.1.xxx//relay/0?turn=on <br>
-Shelly off --> http://192.168.1.xxx//relay/0?turn=off <br>
+Shelly on --> http:/192.168.1.xxx//relay/0?turn=on <br>
+Shelly off --> http:/192.168.1.xxx//relay/0?turn=off <br>
 
-Sonoff need a json body, and hence, would need to be tested from Postman or similary.
+Sonoff need a json body, and hence, would need to be tested from Postman or similarly.
 
 ### Limitation
 You can only run one TILT or PILL by each ESP32, and also need one login (Chip ID of ESP32) accordingly for each ESP32. Sorry :-)
+A strong and decent network is also a prerequisite for SPINDELMATE to work.
 
 
 ### A bit more overview of what TILTPILLMATE can do in picture form
@@ -71,13 +72,13 @@ You can only run one TILT or PILL by each ESP32, and also need one login (Chip I
 
 
 
-# Some further screenshorts 
+# Some further screenshots 
 
 ### Main screen of GUI
 ![image](https://user-images.githubusercontent.com/16992918/218799876-d7dfa0f4-a9b6-445e-ab5c-a04d56ececc2.png)
 
 
-### Veiw/share brew Screen
+### View/share brew Screen
 ![image](https://user-images.githubusercontent.com/16992918/218859393-85fd9d1c-1d1d-424d-92a3-e3dde90456a9.png)
 
 
