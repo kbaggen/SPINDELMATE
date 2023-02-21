@@ -20,11 +20,12 @@ All data and controlling is done at SPINDELMATE CLOUD and hence you only need to
 An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini (se more below). If you wish to use the TempControl function you will need Plugs from Tasmota, Shelly and/or Sonoff in DIY mode (se more below).
 
 ### Installing and Download
+You can use Brewflasher (http://www.brewflasher.com/) or Webbased version (https://web.brewflasher.com/fw/108) to install SPINDELMATE. You will need to Install "CP210x USB to UART Bridge VCP Drivers", please see below.
 
+If you wish for manual install:
 > 1. Install CP210x USB to UART Bridge VCP Drivers (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) so you PC can find and see the ESP32.
 > 2. Install ESP Home Flasher (https://github.com/esphome/esphome-flasher/releases), e.g. flash program to flash install-bins onto the ESP32. The flash program also give your the possibility to see and view what going on inside logger.
 > 3. Download the Install-bin files accordingly under releases here at Github) (https://github.com/kbaggen/SPINDELMATE/releases).
-
 NOTICE! Please remember to hold and press “BOOT” during the start of upload to the ESP32 until after it states "Chip Info"!
 
 
