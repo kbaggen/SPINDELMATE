@@ -22,7 +22,7 @@ An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture 
 ### Installing and Download
 You can use Brewflasher (http://www.brewflasher.com/) or Webbased version (https://web.brewflasher.com/fw/108) to install SPINDELMATE. You will need to Install "CP210x USB to UART Bridge VCP Drivers" first though, please see below.
 
-If you wish for manual install:
+If you wish for manual install (a bit faster for updates):
 > 1. Install CP210x USB to UART Bridge VCP Drivers (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) so you PC can find and see the ESP32.
 > 2. Install ESP Home Flasher (https://github.com/esphome/esphome-flasher/releases), e.g. flash program to flash install-bins onto the ESP32. The flash program also give your the possibility to see and view what going on inside logger.
 > 3. Download the Install-bin files accordingly under releases here at Github) (https://github.com/kbaggen/SPINDELMATE/releases).
