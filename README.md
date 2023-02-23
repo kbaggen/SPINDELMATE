@@ -26,7 +26,7 @@ If you wish for manual install (a bit faster for updates):
 > 1. Install CP210x USB to UART Bridge VCP Drivers (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) so you PC can find and see the ESP32.
 > 2. Install ESP Home Flasher (https://github.com/esphome/esphome-flasher/releases), e.g. flash program to flash install-bins onto the ESP32. The flash program also give your the possibility to see and view what going on inside logger.
 > 2. Or you can use the Update function in the AP portal when powering on the logger if SPINDELMATE already installed in earlier version. 
-> 3. Download the Install-bin files accordingly under releases here at Github) (https://github.com/kbaggen/SPINDELMATE/releases).
+> 3. Download and run the Install-bin files accordingly in ESP Home Flasher (or AP portal). You find the install .bin file under releases here at Github (https://github.com/kbaggen/SPINDELMATE/releases).
 NOTICE! Please remember to hold and press “BOOT” during the start of upload to the ESP32 until after it states "Chip Info"!
 
 
