@@ -17,7 +17,7 @@ All data and controlling is done at SPINDELMATE CLOUD and hence you only need to
 
 
 ### Parts needed
-An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU, and Wemos ESP32 D1 Mini (se more below). If you wish to use the TempControl function you will need Plugs from Tasmota, Shelly and/or Sonoff in DIY mode (se more below).
+An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with ESP32 DevKit1, ESP32S NodeMCU (se more below). If you wish to use the TempControl function you will need Plugs from Tasmota, Shelly and/or Sonoff in DIY mode (se more below).
 
 ### Installing and Download
 You can use Brewflasher (http://www.brewflasher.com/) or Webbased version (https://web.brewflasher.com/fw/108) to install SPINDELMATE. You will need to Install "CP210x USB to UART Bridge VCP Drivers" first though, please see below.
@@ -37,7 +37,7 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 ### Behavior
 The first 60 sec´s after power on it will light blue in AP mode and hence you can set Wifi credentials. Thereafter in will turn blue LED off, and only flash it every 10 sec´s where it ping the iBeacon signal (repeats/boots the  TILT signal or emulate a TILT Bluetooth signal for RAPT PILL or iSPINDEL users). After the "cycle in min" time you have set in settings has ended it will scan for TILT or RAPT Pill according till the "cycle in min" setting. Meaning if 3 mins is set it scan for 30-120 secs after those 3 minutes, and if 6 mins is set it will scan after 6 minutes for 60-240 secs, where the later then supports a telemetric setting of every 3rd min for a RAPT PILL. As the TILT pings every 10 sec, it should be covered however you do set the cycle behavior.
 
-If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL turn off the above Bluetooth scanning of TILT/RAPT Pill. For iSPINDEL you must include the iSPINDEL Chip ID at settings at SPINDELMATE Cloud and the iSPINDEL must send data by HTTP till the local ip of the logger. __Hence, for iSPINDEL it should be noted currently SPIDELMATE works as an temperature controller/hub, and it is important to state it do not work as an extender.__ We strongly propose you ensure to bind the local ip address in your router for the ESP32 of SPINDELMATE as else if it change (power loss etc.) iSPINDEL will not be able to reach the logger. T oread more on how to setup for iSPINDEL see here: https://iblopper.bubble-logger.com/2352-2/
+If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL turn off the above Bluetooth scanning of TILT/RAPT Pill. For iSPINDEL you must include the iSPINDEL Chip ID at settings at SPINDELMATE Cloud. SPINDELMATE from ver1.3.0 works as Access Point for iSPINDEL by creating an AP by the name "SPINDELMATE iAP xxxxxxx" where xxxxx is chip id (iAP means AP for an iSPINDEL). This AP is created at 192.168.10.1 with no password needed, and the iSPINDEL should send by HTTP till this IP of 192.169.10.1 (at port 80 and "/" as patch). This is proven to work for ESP32 DevKit ver1, but did not work for Wemos D1 EPS32. To read more on how to setup for iSPINDEL see here: https://iblopper.bubble-logger.com/2352-2/
 
 ### ESP32 supported
 The following has been tested to work: 
