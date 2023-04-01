@@ -42,11 +42,10 @@ If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL tu
 ### ESP32 supported
 The following has been tested to work: 
 
-ESP32 DevKit1, ESP32S NodeMCU. 
-ESP32 DevkitC V4, HiLetgo ESP32 OLED WiFi Kit V3 Type-C ESP-32 0.96 Inch Blue OLED (@Frank Nobrega for TILT testing)).
+ESP32 DevKit1, ESP32S NodeMCU (@admin). ESP32 DevkitC V4, HiLetgo ESP32 OLED WiFi Kit V3 Type-C ESP-32 0.96 Inch Blue OLED (@Frank Nobrega for TILT testing)).
 
 Did not worked:
-ESP32-DevKitC-32 30P (version3 ???) (@Frank Nobrega)
+ESP32-DevKitC-32 30P (version3 ???) (@Frank Nobrega). Wemos ESP 32 D1 (@admin).
 
 ### Plugs supported
 __The following is tested and working:__
