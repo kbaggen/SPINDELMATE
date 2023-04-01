@@ -5,6 +5,7 @@
 
 ### What is SPINDELMATE
 <sup><sub>SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
+<sup><sub>UPDATED on 1 April 2023 - version1.4.0/sup></sub>
 
 SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth or WiFI signal from iSPINDEL. Furthermore, it is a cloud service allowing to easily uploading your data.
 
