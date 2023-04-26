@@ -50,7 +50,7 @@ ESP32-DevKitC-32 30P (version3 ???) (@Frank Nobrega).
 ### Plugs supported
 __The following is tested and working:__
 
-Sonoff Basic R3, Shelly PLUG S, Shelly PLUS PLUG US (@Frank Nobrega), TASMOTA Martin Jerry Mini Smart Plug (@Frank Nobrega), Shelly 1, Shelly 1 PM, Shelly PRO 1, Shelly PRO 1 PM (@Per F. Sørensen).
+Sonoff Basic R3, Shelly PLUG S (@admin), Shelly PLUS PLUG US and TASMOTA Martin Jerry Mini Smart Plug (@Frank Nobrega), Shelly 1, Shelly 1 PM, Shelly PRO 1, Shelly PRO 1 PM (@Per F. Sørensen).
 
 __Likkely working (from specification/API):__
 
