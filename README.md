@@ -42,7 +42,7 @@ If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL tu
 ### ESP32 supported
 The following has been tested to work: 
 
-Wemos ESP32 d1 mini, ESP32 DevKit1 ( seach for esp-wroom-32 devkit v1 and )
+Wemos ESP32 d1 mini, ESP32 DevKit1 ( seach for esp-wroom-32 devkit v1 and --> ttps://user-images.githubusercontent.com/9260214/28747595-19a41090-7471-11e7-826c-42c28ea7ae6e.jpeg
 
 ### Plugs supported
 __The following is tested and working:__
