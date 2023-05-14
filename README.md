@@ -42,7 +42,7 @@ If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL tu
 ### ESP32 supported
 If you wish to buy one you should go for: 
 
-Wemos ESP32 D1 mini or ESP32 DevKit1 (seach for "esp-wroom-32 devkit v1" and find one wich hold same pins as shown at following picture --> https://user-images.githubusercontent.com/9260214/28747595-19a41090-7471-11e7-826c-42c28ea7ae6e.jpeg).
+Wemos ESP32 D1 mini or ESP32 DevKit1 (for the later seach for "esp-wroom-32 devkit v1" and check is state "esp-wroom-32" on the chip, and secondly ensure youfind one wich hold same pins as shown at following picture --> https://user-images.githubusercontent.com/9260214/28747595-19a41090-7471-11e7-826c-42c28ea7ae6e.jpeg).
 
 ### Plugs supported
 __The following is tested and working:__
