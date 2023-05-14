@@ -17,7 +17,7 @@ All data and controlling is done at SPINDELMATE CLOUD and hence you only need to
 
 
 ### Parts needed
-An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with Wemos ESP32 d1 mini and ESP32 DevKit1 (esp-wroom-32 devkit v1). If you wish to use the TempControl function you will need Plugs from Tasmota, Shelly and/or Sonoff in DIY mode (se more below).
+An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with Wemos ESP32 d1 mini and ESP32 DevKit1 (esp-wroom-32 devkit v1), see more below. If you wish to use the TempControl function you will need Plugs from Tasmota, Shelly and/or Sonoff in DIY mode (se more below).
 
 ### Installing and Download
 You can use Brewflasher (http://www.brewflasher.com/) or Webbased version (https://web.brewflasher.com/fw/108) to install SPINDELMATE. You will need to Install "CP210x USB to UART Bridge VCP Drivers" first though, please see below.
@@ -42,7 +42,7 @@ If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL tu
 ### ESP32 supported
 The following has been tested to work: 
 
-Wemos ESP32 d1 mini, ESP32 DevKit1 ( seach for esp-wroom-32 devkit v1 and --> https://user-images.githubusercontent.com/9260214/28747595-19a41090-7471-11e7-826c-42c28ea7ae6e.jpeg
+Wemos ESP32 d1 mini, ESP32 DevKit1 ( seach for esp-wroom-32 devkit v1 and find one wich hold same pins as shown at following picture --> https://user-images.githubusercontent.com/9260214/28747595-19a41090-7471-11e7-826c-42c28ea7ae6e.jpeg).
 
 ### Plugs supported
 __The following is tested and working:__
