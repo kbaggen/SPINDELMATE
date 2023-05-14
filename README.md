@@ -40,9 +40,9 @@ The first 60 sec´s after power on it will light blue in AP mode and hence you c
 If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL turn off the above Bluetooth scanning of TILT/RAPT Pill. For iSPINDEL you must include the iSPINDEL Chip ID at settings at SPINDELMATE Cloud. To send from iSPINDEL till SPINDELMATE both must be on same local network so you will need to find the ip of SPINDELMATE (see in router, or use serial output of Brewflasher, Arduino IDE or Esphome-flasher as SPINDELMATE state the local IP during startup) and enter SPINDELMATE ip in iSPINDEL e.g. 192.168.x.x (+ use port 80 and "/" as patch) and choose HTTP as sending mode. It should send temperature in celsius. For iSPINDEL use see more here: https://iblopper.bubble-logger.com/2352-2/
 
 ### ESP32 supported
-The following has been tested to work: 
+If you wish to buy one you should go for: 
 
-Wemos ESP32 d1 mini, ESP32 DevKit1 ( seach for esp-wroom-32 devkit v1 and find one wich hold same pins as shown at following picture --> https://user-images.githubusercontent.com/9260214/28747595-19a41090-7471-11e7-826c-42c28ea7ae6e.jpeg).
+Wemos ESP32 D1 mini or ESP32 DevKit1 (seach for "esp-wroom-32 devkit v1" and find one wich hold same pins as shown at following picture --> https://user-images.githubusercontent.com/9260214/28747595-19a41090-7471-11e7-826c-42c28ea7ae6e.jpeg).
 
 ### Plugs supported
 __The following is tested and working:__
