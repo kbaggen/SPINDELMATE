@@ -56,13 +56,7 @@ __Likkely working (from specification/API):__
 
 Sonoff Mini, Sonof RFR3, and various Tasmota plugs.
 
-__Testing of Plugs by follwing commands:__<br>
-Tasmota on --> http://192.168.1.xxx/cm?cmnd=Power%20on <br>
-Tasmota off --> http://192.168.1.xxx/cm?cmnd=Power%20off <br>
-Shelly on --> http://192.168.1.xxx/relay/0?turn=on <br>
-Shelly off --> http://192.168.1.xxx/relay/0?turn=off <br>
-
-Sonoff need a json body, and hence, would need to be tested from Postman or similarly.
+Read More at Wiki --> https://github.com/kbaggen/SPINDELMATE/wiki/Temperature-Control-by-WiFI-Smart-Plug
 
 ### Limitation
 You can only run one TILT or PILL by each ESP32, and also need one login (Chip ID of ESP32) accordingly for each ESP32. Sorry :-)
