@@ -44,7 +44,7 @@ If you wish to buy one you should go for:
 
 ESP32 DevKit1 or ESP32 D1 mini 
 
-Please reade more under Wiki --> https://github.com/kbaggen/SPINDELMATE/wiki/Supported-ESP32
+Please Read More at Wiki --> https://github.com/kbaggen/SPINDELMATE/wiki/Supported-ESP32
 
 
 ### Plugs supported
@@ -56,7 +56,7 @@ __Likkely working (from specification/API):__
 
 Sonoff Mini, Sonof RFR3, and various Tasmota plugs.
 
-Read More at Wiki --> https://github.com/kbaggen/SPINDELMATE/wiki/Temperature-Control-by-WiFI-Smart-Plug
+Please Read More at Wiki --> https://github.com/kbaggen/SPINDELMATE/wiki/Temperature-Control-by-WiFI-Smart-Plug
 
 ### Limitation
 You can only run one TILT or PILL by each ESP32, and also need one login (Chip ID of ESP32) accordingly for each ESP32. Sorry :-)
