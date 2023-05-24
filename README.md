@@ -3,7 +3,7 @@
   </p>
 
 
-### What is SPINDELMATE <sup><sub>UPDATED on 1 April 2023 - version1.4.0</sup></sub>
+### What is SPINDELMATE <sup><sub>UPDATED on 24 May 2023 - version1.5.0 - "Activity Sensors"</sup></sub>
 <sup><sub>SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
 
 
@@ -46,6 +46,12 @@ ESP32 DevKit1 or ESP32 D1 mini
 
 Please Read More at Wiki --> https://github.com/kbaggen/SPINDELMATE/wiki/Supported-ESP32
 
+
+### Other sensors supported
+You can monitor your yeast activity by motioning the CO2 blops pr. minute (BPM). Two differnt sensors is supported.
+
+You can either use a MPU6050 to follow the bubble/CO2 release by vibration techonology for both S-airlock or the 3-pieces type. Or you can use a LM393 sound sensor. The later fits perfectly into a S-airlock "head", and by adding a smal water ballon for moisture protection you can detects the sound when CO2 is released.
+Read more at Wiki -- > https://github.com/kbaggen/SPINDELMATE/wiki/Activity-sensor:-MPU6050-or-LM393-Sound-sensor-for-Blops-pr.-Min-(BPM)-detection
 
 ### Plugs supported
 __The following is tested and working:__
