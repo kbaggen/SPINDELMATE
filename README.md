@@ -3,7 +3,7 @@
   </p>
 
 
-### What is SPINDELMATE <sup><sub></sup></sub>
+### What is SPINDELMATE <sup><sub></sup></sub><sup><sub>UPDATED on 24 May 2023 - version1.5.0 - "Activity Sensors"</sup></sub>
 <sup><sub>SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
 
 
