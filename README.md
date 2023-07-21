@@ -7,7 +7,7 @@
 <sup><sub>SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
 
 
-SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth or WiFI signal from iSPINDEL. Furthermore, it is a cloud service allowing to easily uploading your data.
+SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth or WiFI signal from iSPINDEL. Furthermore, it is a cloud service allowing to easily uploading your data. NOTICE 21 July 2023 - Seems RAPT PILL is broken as Kegland changed in dataset!!!
 
 It is based on ESP32 and supports Smart Plugs (Shelly, Sonoff in "DIY mode" and Tasmota Plugs) for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
 
@@ -35,7 +35,7 @@ Power on the logger. Setup the wifi by joining the Portal of the logger by ip 19
 
 
 ### Behavior
-The first 60 sec´s after power on it will light blue in AP mode and hence you can set Wifi credentials. Thereafter in will turn blue LED off, and only flash it every 10 sec´s where it ping the iBeacon signal (repeats/boots the  TILT signal or emulate a TILT Bluetooth signal for RAPT PILL or iSPINDEL users). After the "cycle in min" time you have set in settings has ended it will scan for TILT or RAPT Pill according till the "cycle in min" setting. Meaning if 3 mins is set it scan for 30-120 secs after those 3 minutes, and if 6 mins is set it will scan after 6 minutes for 60-240 secs, where the later then supports a telemetric setting of every 3rd min for a RAPT PILL. As the TILT pings every 10 sec, it should be covered however you do set the cycle behavior.
+The first 60 sec´s after power on it will light blue in AP mode and hence you can set Wifi credentials. Thereafter in will turn blue LED off, and only flash it every 10 sec´s where it ping the iBeacon signal (repeats/boots the  TILT signal or emulate a TILT Bluetooth signal for RAPT PILL or iSPINDEL users). After the "cycle in min" time you have set in settings has ended it will scan for TILT or RAPT Pill according till the "cycle in min" setting. NOTICE 21 July 2023 - Seems RAPT PILL is broken as Kegland changed in datasetMeaning if 3 mins is set it scan for 30-120 secs after those 3 minutes, and if 6 mins is set it will scan after 6 minutes for 60-240 secs, where the later then supports a telemetric setting of every 3rd min for a RAPT PILL. As the TILT pings every 10 sec, it should be covered however you do set the cycle behavior.
 
 If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL turn off the above Bluetooth scanning of TILT/RAPT Pill. For iSPINDEL you must include the iSPINDEL Chip ID at settings at SPINDELMATE Cloud. To send from iSPINDEL till SPINDELMATE both must be on same local network so you will need to find the ip of SPINDELMATE (see in router, or use serial output of Brewflasher, Arduino IDE or Esphome-flasher as SPINDELMATE state the local IP during startup) and enter SPINDELMATE ip in iSPINDEL e.g. 192.168.x.x (+ use port 80 and "/" as patch) and choose HTTP as sending mode. It should send temperature in celsius. For iSPINDEL use see more here: https://iblopper.bubble-logger.com/2352-2/
 
