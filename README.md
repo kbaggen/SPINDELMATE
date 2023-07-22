@@ -17,7 +17,7 @@ All data and controlling is done at SPINDELMATE CLOUD and hence you only need to
 
 
 ### Parts needed
-An ESP32, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with Wemos ESP32 d1 mini and ESP32 DevKit1 (esp-wroom-32 devkit v1), see more below. If you wish to use the TempControl function you will need Plugs from Tasmota, Shelly and/or Sonoff in DIY mode (se more below).
+An ESP32 DevKit1, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with various ESP32, but  ESP32 DevKit1 (esp-wroom-32 devkit v1) seems to have best and most stable bluetooth connection, hence, the sole version we support. If you wish to use the TempControl function you will need Plugs from Tasmota, Shelly and/or Sonoff in DIY mode (se more below).
 
 ### Installing and Download
 You can use Brewflasher (http://www.brewflasher.com/) or Webbased version (https://web.brewflasher.com/fw/108) to install SPINDELMATE. You will need to Install "CP210x USB to UART Bridge VCP Drivers" first though, please see below.
@@ -40,9 +40,9 @@ The first 60 sec´s after power on it will light blue in AP mode and hence you c
 If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL turn off the above Bluetooth scanning of TILT/RAPT Pill. For iSPINDEL you must include the iSPINDEL Chip ID at settings at SPINDELMATE Cloud. To send from iSPINDEL till SPINDELMATE both must be on same local network so you will need to find the ip of SPINDELMATE (see in router, or use serial output of Brewflasher, Arduino IDE or Esphome-flasher as SPINDELMATE state the local IP during startup) and enter SPINDELMATE ip in iSPINDEL e.g. 192.168.x.x (+ use port 80 and "/" as patch) and choose HTTP as sending mode. It should send temperature in celsius. For iSPINDEL use see more here: https://iblopper.bubble-logger.com/2352-2/
 
 ### ESP32 supported
-If you wish to buy one you should go for: 
+We only support:
 
-ESP32 DevKit1 or ESP32 D1 mini (this is the one we most recommend and most tested).
+ESP32 DevKit1
 
 Please Read More at Wiki --> https://github.com/kbaggen/SPINDELMATE/wiki/Supported-ESP32
 
