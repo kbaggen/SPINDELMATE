@@ -42,7 +42,7 @@ If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL tu
 ### ESP32 supported
 If you wish to buy one you should go for: 
 
-ESP32 DevKit1 or ESP32 D1 mini 
+ESP32 DevKit1 or ESP32 D1 mini (this is the one we most recommend and most tested).
 
 Please Read More at Wiki --> https://github.com/kbaggen/SPINDELMATE/wiki/Supported-ESP32
 
