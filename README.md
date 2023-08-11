@@ -53,15 +53,15 @@ Read more at Wiki -- > https://github.com/kbaggen/SPINDELMATE/wiki/Activity-sens
 ### Plugs supported
 __At time of writing the following plug has been proven to work:__
 
-Sonoff Basic R3
-Shelly PLUG S
-Shelly PLUS PLUG US
-TASMOTA Martin Jerry Mini Smart Plug
-Athom - Tasmota EU Plug V2
-Shelly 1
-Shelly 1 PM
-Shelly PRO 1
-Shelly PRO 1 PM
+* Sonoff Basic R3
+* Shelly PLUG S
+* Shelly PLUS PLUG US
+* TASMOTA Martin Jerry Mini Smart Plug
+* Athom - Tasmota EU Plug V2
+* Shelly 1
+* Shelly 1 PM
+* Shelly PRO 1
+* Shelly PRO 1 PM
 
 __Likkely working (from specification/API):__
 
