@@ -51,9 +51,17 @@ You can either use a MPU6050 to follow the bubble/CO2 release by vibration techo
 Read more at Wiki -- > https://github.com/kbaggen/SPINDELMATE/wiki/Activity-sensor:-MPU6050-or-LM393-Sound-sensor-for-Blops-pr.-Min-(BPM)-detection
 
 ### Plugs supported
-__The following is tested and working:__
+__At time of writing the following plug has been proven to work:__
 
-Sonoff Basic R3, Shelly PLUG S (@admin), Shelly PLUS PLUG US and TASMOTA Martin Jerry Mini Smart Plug (@Frank Nobrega), Shelly 1, Shelly 1 PM, Shelly PRO 1, Shelly PRO 1 PM (@Per F. Sørensen).
+Sonoff Basic R3
+Shelly PLUG S
+Shelly PLUS PLUG US
+TASMOTA Martin Jerry Mini Smart Plug
+Athom - Tasmota EU Plug V2
+Shelly 1
+Shelly 1 PM
+Shelly PRO 1
+Shelly PRO 1 PM
 
 __Likkely working (from specification/API):__
 
