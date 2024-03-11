@@ -3,10 +3,7 @@
 
 
 
-### What is SPINDELMATE <sup><sub></sup></sub><sup><sub>UPDATED on 11 March 2024 - versionM.5.0 - Dear Sir/Madame,
-the project of SPINDELMATE has been updated till today both hold the project of SPINDELMATE and also iBLOPPER under one CLOUD and as of now called iBLOPPER MATE CLOUD. Hence, your logger should still work as before and the new cloud
-should hold all same possibilites even looking a bit different!</sup></sub>
-<sup><sub>SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
+### What is SPINDELMATE <sup><sub></sup></sub><sup><sub>UPDATED on 11 March 2024 - versionM.5.0 - Dear Sir/Madame,the project of SPINDELMATE has been updated till today both hold the project of SPINDELMATE and also iBLOPPER under one CLOUD and as of now called iBLOPPER MATE CLOUD. Hence, your logger should still work as before and the new cloud should hold all same possibilites even looking a bit different!</sup></sub><sup><sub>SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
 
 
 SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth or WiFI signal from iSPINDEL. Furthermore, it is a cloud service allowing to easily uploading your data.
