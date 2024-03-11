@@ -76,7 +76,7 @@ A strong and decent network is also a prerequisite for SPINDELMATE to work.
 
 
 ### A bit more overview of what TILTPILLMATE can do in picture form
-![image](https://user-images.githubusercontent.com/16992918/219751073-18175fff-60c7-46ed-8214-432159c5d816.png)
+![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/d2f1c458-605b-4258-af41-631b20b027d0)
 
 
 
