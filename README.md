@@ -1,5 +1,5 @@
+![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/e5d08cf2-9897-4cb7-aaf8-7d3183b24085)
 
-  ![spindelmate till iblopper mate](https://github.com/kbaggen/SPINDELMATE/assets/16992918/bb7f6857-0671-4cf2-aba7-148abc5f87cb)
 
 
 
