@@ -3,7 +3,7 @@
 
 
 
-<sup><sub></sup></sub><sup><sub>UPDATED on 11 March 2024 - versionM.5.0 - Dear Sir/Madame,the project of SPINDELMATE has been updated till today both hold the project of SPINDELMATE and also iBLOPPER under one CLOUD and as of now called iBLOPPER MATE CLOUD. Hence, your logger should still work as before and the new cloud should hold all same possibilites even looking a bit different!</sup></sub><sup><sub>
+<sup><sub></sup></sub><sup><sub>UPDATED on 11 March 2024 - versionM.5.0 - Dear Sir/Madame,the project of SPINDELMATE has been updated till today. Hence, SPINDELMATE and iBLOPPER MATE is bassecally the same. Hence, please see iBLOPPE MATE for using the M5stack ATOM S# LCD module insteed of ESP32 DEVKIT1!</sup></sub><sup><sub>
 
 SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
 
