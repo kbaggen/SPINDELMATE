@@ -13,7 +13,8 @@ SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL 
 It is based on ESP32 DevKit1 and supports Smart Plugs (Shelly, Sonoff in "DIY mode" and Tasmota Plugs) for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
 
 All data and controlling is done at SPINDELMATE CLOUD and hence you only need to enter wifi details once in the logger.
-![overview_x](https://user-images.githubusercontent.com/16992918/218760899-e3352de1-693a-4ffb-9fd5-a7318df9352b.png)
+![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/c766ef36-d9d2-42fc-97f5-2b85bfd3702b)
+
 
 
 
