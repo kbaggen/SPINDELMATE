@@ -28,6 +28,7 @@ Please download .exe. install programs for M.5.0 version under relase (see right
 > 3. Select the USB PORT.
 > 4. Install by hitting “Burn” (after M5stack ATOM S3 has showed the green light on side) .
 NOTICE! Please remember to hold and press “BOOT” during the start of upload to the ESP32 until after it states "Chip Info"! For M5stack, Press button on side of M5stack ATOM S3 for 2 sec, until it light green to set it in boot-loader mode.
+
 ![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/ca3f72af-b10e-4091-aacd-0d1e9eca51bc)
 
 
