@@ -3,7 +3,7 @@
 
 
 
-<sup><sub></sup></sub><sup><sub>UPDATED on 11 March 2024 - versionM.5.0!</sup></sub><sup><sub>
+<sup><sub></sup></sub><sup><sub>UPDATED on 11 March 2024 - versionM.5.0! If you wish to use blops detction you should go till iBLOPPER MATE now!</sup></sub><sup><sub>
 
 SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
 
