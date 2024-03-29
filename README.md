@@ -49,7 +49,9 @@ If using SPINDELMATE for iSPINDEL, it will as soon as it dectect the iSPINDEL tu
 We support "ESP32 Devkit v1" (is sold under various names) and  M5stack ATOM S3 LCD or M5stack ATOM S3 Lite. So please go for a version with pins as picture state:
 ![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/6b272c9a-6601-406c-ace9-fe0f0540d553)
 
-![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/a24c0280-b1d1-4711-af1f-42c14cb24b36)
+
+![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/135d8aa4-b900-4bae-9fb2-509d63786a5a)
+
 
 
 
