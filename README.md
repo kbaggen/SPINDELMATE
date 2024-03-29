@@ -24,9 +24,13 @@ An ESP32 DevKit1 or M5stack ATOM S3 LCD or M5stack ATOM S3 Lite, a usb cord and 
 ### Installing and Download
 Please download .exe. install programs for M.5.0 version under relase (see right sidebar):
 > 1. Install CP210x USB to UART Bridge VCP Drivers (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) so you PC can find and see the ESP32. OR for M5stack S3 ATOM chips  Windows D2XX (https://ftdichip.com/drivers/d2xx-drivers/) drivers if needed.
+
 > 2.Download the SPINDELMATE/iBLOPPER MATE installer at releases for either ESP32 DEVKIT1 or M5stack S3 ATom LCD or LITE
+
 > 3. Select the USB PORT.
+
 > 4. Install by hitting “Burn” (after M5stack ATOM S3 has showed the green light on side) .
+
 NOTICE! Please remember to hold and press “BOOT” during the start of upload to the ESP32 until after it states "Chip Info"! For M5stack, Press button on side of M5stack ATOM S3 for 2 sec, until it light green to set it in boot-loader mode.
 
 ![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/ca3f72af-b10e-4091-aacd-0d1e9eca51bc)
