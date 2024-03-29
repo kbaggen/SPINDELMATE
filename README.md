@@ -10,7 +10,7 @@ SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
 
 SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth or WiFI signal from iSPINDEL. Furthermore, it is a cloud service allowing to easily uploading your data.
 
-It is based on ESP32 DevKit1 and supports Smart Plugs (Shelly, Sonoff in "DIY mode" and Tasmota Plugs) for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
+It is based on ESP32 DevKit1 and supports Smart Plug (Shelly and Tasmota Plugs) for controlling a fridge or heater and hence secondly acts as a temperature controller. These plugs is controlled over local network by HTTP commands.
 
 All data and controlling is done at SPINDELMATE CLOUD and hence you only need to enter wifi details once in the logger.
 ![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/c766ef36-d9d2-42fc-97f5-2b85bfd3702b)
@@ -19,7 +19,7 @@ All data and controlling is done at SPINDELMATE CLOUD and hence you only need to
 
 
 ### Parts needed
-An ESP32 DevKit1 or M5stack ATOM S3 LCD or M5stack ATOM S3 Lite, a usb cord and a TickTax box to hold it all, and ensure some moisture protection. Currently, it have been tested with various ESP32, but  ESP32 DevKit1 (esp-wroom-32 devkit v1) seems to have best and most stable bluetooth connection, hence, the sole version we support. If you wish to use the TempControl function you will need Plugs from Tasmota, Shelly and/or Sonoff in DIY mode (se more below).
+An ESP32 DevKit1 or M5stack ATOM S3 LCD or M5stack ATOM S3 Lite, a usb cord and a TickTax box to hold it all if using ESP32, and ensure some moisture protection. If you wish to use the TempControl function you will need Plug from Tasmota or Shelly.
 
 ### Installing and Download
 Please download .exe. install programs for M.5.0 version under relase (see right sidebar):
@@ -56,7 +56,7 @@ We support "ESP32 Devkit v1" (is sold under various names) and  M5stack ATOM S3 
 ### Plugs supported
 __At time of writing the following plug has been proven to work:__
 
-*Shelly PLUG S
+* Shelly PLUG S
 * Shelly PLUS PLUG US
 * TASMOTA Martin Jerry Mini Smart Plug
 * Athom - Tasmota EU Plug V2
