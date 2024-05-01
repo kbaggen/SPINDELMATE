@@ -1,4 +1,4 @@
-![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/e5d08cf2-9897-4cb7-aaf8-7d3183b24085)
+![image](https://github.com/kbaggen/SPINDELMATE/assets/16992918/388ad537-ae85-4915-b796-6bf36e86f7b2)
 
 
 
