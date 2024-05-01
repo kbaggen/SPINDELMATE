@@ -3,9 +3,9 @@
 
 
 
-<sup><sub></sup></sub><sup><sub>UPDATED on 11 March 2024 - versionM.5.0! If you wish to use blops detction you should go till iBLOPPER MATE now! Secondly - SPINDELMATE Cloud is only slowly updated. For best experaince and fastest updates use iBLOPPER CLOUD and set sensitivity under settings to 0.</sup></sub><sup><sub>
+<sup><sub></sup></sub><sup><sub>UPDATED on 30 APRIL 2024 - versionM.5.1! SPINDELMATE USERS should now use iBLOPPER CLOUD as the 2 projects is merging, hence, for best experaince and fastest updates use iBLOPPER CLOUD and set sensitivity under settings to "0" to turn blops detection off if you wish so.</sup></sub><sup><sub>
 
-SPINDELMATE CLOUD => https://spindelmate.bubble-logger.com/login.php</sup></sub>
+SPINDELMATE CLOUD => iBOPPER CLOUD ~ https://bubble-logger.com/M5/login.php </sup></sub>
 
 
 SPINDELMATE is a fermentation logger capturing the TILT hydrometer or RAPT PILL data of gravity and temperature by Bluetooth or WiFI signal from iSPINDEL. Furthermore, it is a cloud service allowing to easily uploading your data.
