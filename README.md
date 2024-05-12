@@ -3,7 +3,7 @@
 
 
 
-<sup><sub></sup></sub><sup><sub>UPDATED on 30 APRIL 2024 - versionM.5.1! SPINDELMATE USERS should now use iBLOPPER CLOUD as the 2 projects is merging, hence, for best experaince and fastest updates use iBLOPPER CLOUD and set sensitivity under settings to "0" to turn blops detection off if you wish so.</sup></sub><sup><sub>
+<sup><sub></sup></sub><sup><sub>UPDATED on 12 May 2024 - versionM.5.2! __SPINDELMATE USERS should now use iBLOPPER CLOUD as the SPINDELAMTE is merging into iBLOPPER, hence, SPINDELMATE user should set sensitivity under settings to "0" to turn blops detection off if you wish so.__</sup></sub><sup><sub>
 
 SPINDELMATE CLOUD => iBOPPER CLOUD ~ https://bubble-logger.com/M5/login.php </sup></sub>
 
